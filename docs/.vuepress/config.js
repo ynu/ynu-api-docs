@@ -43,8 +43,27 @@ module.exports = ctx => ({
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
         nav: require('./nav/zh'),
+        sidebarDepth: 3,
         sidebar: {
           '/guide/': getGuideSidebar('指南', '深入'),
+          '/esop/':  [
+            {
+              title: '基础',
+              collapsable: false,
+              children: [
+                '',
+                'introduction',
+                'admin_manual',
+              ],
+            },
+            {
+              title: '深入',
+              collapsable: false,
+              children: [
+                'developer-manual',
+              ],
+            }
+          ],
         },
       },
     },

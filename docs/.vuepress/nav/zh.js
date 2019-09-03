@@ -3,6 +3,10 @@ module.exports = [
     text: '指南',
     link: '/guide/',
   },
+  {
+    text: '能力开放平台',
+    link: '/esop/',
+  },
   // {
   //   text: '配置',
   //   link: '/config/',
