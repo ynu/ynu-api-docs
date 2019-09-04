@@ -94,6 +94,13 @@ module.exports = ctx => ({
         after: '</UpgradePath>',
       },
     ],
+    'flowchart',
+    ['mathjax', {
+      target: 'svg',
+      macros: {
+        '*': '\\times',
+      },
+    }],
   ],
   extraWatchFiles: ['.vuepress/nav/zh.js'],
 });
