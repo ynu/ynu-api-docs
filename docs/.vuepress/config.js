@@ -62,6 +62,13 @@ module.exports = ctx => ({
               children: [
                 'developer-manual',
               ],
+            },
+            {
+              title: '其他',
+              collapsable: false,
+              children: [
+                'markdown-getting-started',
+              ],
             }
           ],
         },
