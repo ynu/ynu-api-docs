@@ -53,7 +53,7 @@ module.exports = ctx => ({
               children: [
                 '',
                 'introduction',
-                'admin_manual',
+                'admin-manual',
               ],
             },
             {
