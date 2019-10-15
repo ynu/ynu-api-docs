@@ -1,12 +1,10 @@
-# API 文档
+# 统计研究生数量
 
-## 统计研究生数量
-
-### 请求地址
+## 请求地址
 
 POST http://apis.ynu.edu.cn/do/api/call/count_yjs
 
-### 请求参数
+## 请求参数
 
 | 属性   | 类型   | 默认值 | 必填 | 说明       |
 | ------ | ------ | ------ | ---- | ---------- |
@@ -20,16 +18,16 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
 | xwlx   | String |        | 否   | 学位类型   |
 | mzdm   | String |        | 否   | 名族       |
 
-### 返回值
+## 返回值
 
-#### Object
+### Object
 
 返回的 JSON 数据包
 |属性|类型|说明|
 |---|---|---|
 |RESULT|Number|返回结果|
 
-### 请求数据示例
+## 请求数据示例
 
 ```
 {
@@ -37,7 +35,7 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
 }
 ```
 
-### 返回数据示例
+## 返回数据示例
 
 ```
 {
@@ -61,3 +59,11 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
     ]
 }
 ```
+
+## 作用
+
+根据条件（即请求参数）获得研究生的数量
+
+## 使用方法
+
+使用此 api 需要 appId、token、Content-Type、请求参数，缺一不可，其中 appid、token 在申请此 api 的使用权成功之后即可获得，Content-Type 默认为 application/json，请求参数至少得有一个，发送请求即可获得正确的结果。
