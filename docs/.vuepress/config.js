@@ -67,22 +67,22 @@ module.exports = ctx => ({
                   children: ["apiUsage"]
                 },
                 {
-                  title: "标准代码API",
+                  title: "标准代码",
                   collapsable: false
                   //children: [""]
                 },
                 {
-                  title: "研究生管理API",
+                  title: "研究生管理",
                   collapsable: false,
                   children: ["api-manual"]
                 },
                 {
-                  title: "本科教务API",
+                  title: "本科教务",
                   collapsable: false
                   //children: [""]
                 },
                 {
-                  title: "人事管理API",
+                  title: "人事管理",
                   collapsable: false
                   //children: [""]
                 }
