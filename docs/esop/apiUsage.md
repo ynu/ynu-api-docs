@@ -10,7 +10,7 @@
 ### 编辑完整的请求
 
 查询对应的 API 文档，以此得知接口的信息。发送的请求数据中：Headers 中要包含
-accToken，appid，Centent-Type，同时 body 里面应该带至少一个有请求参数。
+accessToken，appid，Centent-Type，同时 body 里面应该带至少一个有请求参数。
 
 ### 发送请求
 
