@@ -1,5 +1,9 @@
 # 统计研究生数量
 
+## 用途
+
+根据条件（即请求参数）获得研究生的数量
+
 ## 请求地址
 
 POST http://apis.ynu.edu.cn/do/api/call/count_yjs
@@ -31,7 +35,7 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
 
 ```
 {
-"xslbdm":"全日制学术型硕士研究生"
+	"nj":"2001"
 }
 ```
 
@@ -53,17 +57,9 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
     },
     "dataSet": [
         {
-            "RESULT": 0,
+            "RESULT": 20,
             "ROW_ID": 1
         }
     ]
 }
 ```
-
-## 作用
-
-根据条件（即请求参数）获得研究生的数量
-
-## 使用方法
-
-使用此 api 需要 appId、token、Content-Type、请求参数，缺一不可，其中 appid、token 在申请此 api 的使用权成功之后即可获得，Content-Type 默认为 application/json，请求参数至少得有一个，发送请求即可获得正确的结果。
