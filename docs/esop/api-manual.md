@@ -63,3 +63,28 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
     ]
 }
 ```
+
+## 返回的 JSON 数据
+
+| 属性         | 类型   | 说明           |
+| ------------ | ------ | -------------- |
+| returnStatus | String | 返回的状态     |
+| returnId     | String | 返回的 Id      |
+| errorCode    | String | 错误代码       |
+| pageInfo     | Object | 页面信息       |
+| dataSet      | Object | 返回的数据信息 |
+
+pageInfo：
+|属性|类型|说明|
+|---|---|---|
+|pageNum|Int|页码|
+|pageSize|Int|页面大小|
+|startRow|Int|开始行|
+|endRow|Int|结束行|
+|total|Int|总数|
+|pages|Int|页数|
+dataSet：
+|属性|类型|说明|
+|---|---|---|
+|RESULT|Int|满足条件的研究生数量|
+|ROW_ID|Int|行 ID|
