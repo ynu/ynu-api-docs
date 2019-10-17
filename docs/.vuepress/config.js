@@ -67,9 +67,20 @@ module.exports = ctx => ({
                   children: ["apiUsage"]
                 },
                 {
+                  title: "API返回数据说明",
+                  collapsable: false,
+                  children: ["api-return-data-description"]
+                },
+                {
                   title: "标准代码",
-                  collapsable: false
-                  //children: [""]
+                  collapsable: false,
+                  children: [
+                    "api-standard/return-data-description",
+                    "api-standard/xbdm",
+                    "api-standard/mzdm",
+                    "api-standard/zzmmdm",
+                    "api-standard/zjlbdm"
+                  ]
                 },
                 {
                   title: "研究生管理",
@@ -78,13 +89,13 @@ module.exports = ctx => ({
                 },
                 {
                   title: "本科教务",
-                  collapsable: false
-                  //children: [""]
+                  collapsable: false,
+                  children: []
                 },
                 {
                   title: "人事管理",
-                  collapsable: false
-                  //children: [""]
+                  collapsable: false,
+                  children: []
                 }
               ]
             },
