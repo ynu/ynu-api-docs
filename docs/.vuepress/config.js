@@ -68,8 +68,8 @@ module.exports = ctx => ({
                 },
                 {
                   title: "标准代码",
-                  collapsable: false
-                  //children: [""]
+                  collapsable: false,
+                  children: []
                 },
                 {
                   title: "研究生管理",
@@ -78,13 +78,13 @@ module.exports = ctx => ({
                 },
                 {
                   title: "本科教务",
-                  collapsable: false
-                  //children: [""]
+                  collapsable: false,
+                  children: []
                 },
                 {
                   title: "人事管理",
-                  collapsable: false
-                  //children: [""]
+                  collapsable: false,
+                  children: []
                 }
               ]
             },
