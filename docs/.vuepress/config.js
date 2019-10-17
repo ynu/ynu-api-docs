@@ -74,6 +74,7 @@ module.exports = ctx => ({
                 {
                   title: "标准代码",
                   collapsable: false,
+<<<<<<< HEAD
                   children: [
                     "api-standard/return-data-description",
                     "api-standard/xbdm",
@@ -81,6 +82,9 @@ module.exports = ctx => ({
                     "api-standard/zzmmdm",
                     "api-standard/zjlbdm"
                   ]
+=======
+                  children: []
+>>>>>>> 1df1ee2cb9f19bc31c024a85c21fe1a4cef4f30a
                 },
                 {
                   title: "研究生管理",
