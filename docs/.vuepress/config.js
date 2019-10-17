@@ -79,7 +79,9 @@ module.exports = ctx => ({
                     "api-standard/xbdm",
                     "api-standard/mzdm",
                     "api-standard/zzmmdm",
-                    "api-standard/zjlbdm"
+                    "api-standard/zjlbdm",
+                    "api-standard/zjdm",
+                    "api-standard/dqdm"
                   ]
                 },
                 {

@@ -1,12 +1,12 @@
-# 获取证件类别代码
+# 获取地区代码
 
 ## 用途
 
-获取证件类别代码
+获取地区代码
 
 ## 请求地址
 
-POST http://apis.ynu.edu.cn/do/api/call/zxbz_zjlx
+POST http://apis.ynu.edu.cn/do/api/call/zxbz_dqdm
 
 ## 返回值
 
@@ -18,7 +18,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zjlx
 |WID|String||
 |DM|String|对应的代码|
 |CLRQ|DateStr|处理日期|
-|MC|String|证件类别名称|
+|MC|String|地区名称|
 |SFSY|String|是否使用|
 
 ## 请求数据示例
@@ -40,16 +40,16 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zjlx
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": 12,
-        "pages": 1
+        "total": 3540,
+        "pages": 4
     },
     "dataSet": [
         {
-            "DM": "1122",
+            "DM": "150521",
             "CLRQ": "2015-03-01 00:00:00.0",
-            "WID": "1",
+            "WID": "150521",
             "ROW_ID": 1,
-            "MC": "居民身份证",
+            "MC": "科尔沁左翼中旗",
             "SFSY": "1"
         },
         ...
