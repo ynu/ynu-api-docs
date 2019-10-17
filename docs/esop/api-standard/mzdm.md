@@ -15,10 +15,10 @@ POST http://apis.ynu.edu.cn/do/api/call/zxnz_mz
 返回的 JSON 数据包
 |属性|类型|说明|
 |---|---|---|
-|WID|String||
+|WID|String|唯一标识 ID|
 |DM|String|对应的代码|
 |CLRQ|DateStr|处理日期|
-|MC|String|名称|
+|MC|String|民族名称|
 |SFSY|String|是否使用|
 
 ## 请求数据示例
@@ -51,7 +51,8 @@ POST http://apis.ynu.edu.cn/do/api/call/zxnz_mz
             "ROW_ID": 1,
             "MC": "汉族",
             "SFSY": "1"
-        }
+        },
+        ...
     ]
 }
 ```

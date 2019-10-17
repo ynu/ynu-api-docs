@@ -15,10 +15,10 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xb
 返回的 JSON 数据包
 |属性|类型|说明|
 |---|---|---|
-|WID|String||
+|WID|String|唯一标识 ID|
 |DM|String|对应的代码|
 |CLRQ|DateStr|处理日期|
-|MC|String|名称|
+|MC|String|性别名称|
 |SFSY|String|是否使用|
 
 ## 请求数据示例
@@ -59,7 +59,8 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xb
             "ROW_ID": 2,
             "MC": "女",
             "SFSY": "1"
-        }
+        },
+        ...
     ]
 }
 ```

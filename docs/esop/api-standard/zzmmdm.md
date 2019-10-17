@@ -15,7 +15,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zzmm
 返回的 JSON 数据包
 |属性|类型|说明|
 |---|---|---|
-|WID|String||
+|WID|String|唯一标识 ID|
 |DM|String|对应的代码|
 |CLRQ|DateStr|处理日期|
 |MC|String|政治面貌名称|
@@ -51,7 +51,8 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zzmm
             "ROW_ID": 1,
             "MC": "中国共产党党员",
             "SFSY": "1"
-        }
+        },
+        ...
     ]
 }
 ```

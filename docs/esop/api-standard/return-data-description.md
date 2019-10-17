@@ -22,7 +22,7 @@ pageInfo：
 dataSet:
 |属性|类型|说明|
 |---|---|---|
-|WID|String||
+|WID|String|唯一标识 ID|
 |DM|String|对应的代码|
 |CLRQ|DateStr|处理日期|
 |MC|String|名称|
