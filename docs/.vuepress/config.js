@@ -97,13 +97,17 @@ module.exports = ctx => ({
                     "api-standard/ksfsdm",
                     "api-standard/xxfsdm",
                     "api-standard/lxbzdm",
-                    "api-standard/xkmldm"
+                    "api-standard/xkmldm",
+                    "api-standard/gatqdm",
+                    "api-standard/gjdqdm",
+                    "api-standard/kslbdm",
+                    "api-standard/sfzxdm"
                   ]
                 },
                 {
                   title: "研究生管理",
                   collapsable: false,
-                  children: ["api-manual"]
+                  children: ["api-manual", "api-yjs-management/query_yjs_jbxx"]
                 },
                 {
                   title: "本科教务",
