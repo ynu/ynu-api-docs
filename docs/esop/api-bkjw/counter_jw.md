@@ -1,26 +1,23 @@
-# 统计研究生数量
+# 统计教务数量
 
 ## 用途
 
-根据条件（即请求参数）获得研究生的数量
+根据条件（即请求参数）获得教务的数量
 
 ## 请求地址
 
-POST http://apis.ynu.edu.cn/do/api/call/count_yjs
+POST http://apis.ynu.edu.cn/do/api/call/count_jw
 
 ## 请求参数
 
-| 属性   | 类型   | 默认值 | 必填 | 说明       |
-| ------ | ------ | ------ | ---- | ---------- |
-| lxbz   | String |        | 否   | 在校标识   |
-| xbdm   | String |        | 否   | 性别代码   |
-| pyccm  | String |        | 否   | 培养层次   |
-| xslbdm | String |        | 否   | 学生类别   |
-| nj     | String |        | 否   | 年级       |
-| dszgh  | String |        | 否   | 导师       |
-| sflxs  | String |        | 否   | 是否留学生 |
-| xwlx   | String |        | 否   | 学位类型   |
-| mzdm   | String |        | 否   | 名族       |
+| 属性    | 类型   | 默认值 | 必填 | 说明         |
+| ------- | ------ | ------ | ---- | ------------ |
+| sfzx    | String |        | 否   | 是否在校     |
+| xbdm    | String |        | 否   | 性别代码     |
+| pyccmdm | String |        | 否   | 培养层次代码 |
+| xslbdm  | String |        | 否   | 学生类别代码 |
+| xznj    | String |        | 否   | 现在年级     |
+| mzdm    | String |        | 否   | 民族代码     |
 
 ## 返回值
 
@@ -54,15 +51,13 @@ pageInfo：
 dataSet：
 |属性|类型|说明|
 |---|---|---|
-|RESULT|Int|满足条件的研究生数量|
+|RESULT|Int|满足条件的教务数量|
 |ROW_ID|Int|行 ID|
 
 ## 请求数据示例
 
 ```
-{
-	"nj":"2001"
-}
+{}
 ```
 
 ## 返回数据示例
@@ -83,7 +78,7 @@ dataSet：
     },
     "dataSet": [
         {
-            "RESULT": 20,
+            "RESULT": 674,
             "ROW_ID": 1
         }
     ]
