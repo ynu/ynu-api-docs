@@ -77,7 +77,7 @@ dataSet：
 |PYCCM|String|培养层次|
 |XSLBDM|String|学生类别|
 |NJ|String|年级|
-|XQSM|String|校区|
+|XQDM|String|校区|
 |DSZGH|String|导师|
 |DSZGH2|String|导师 2|
 |BJDM|String|班级|
@@ -211,7 +211,7 @@ dataSet：
             "PYFSDM": "22",
             "QRZT": null,
             "SFPG": null,
-            "XQSM": null,
+            "XQDM": null,
             "KSBH": null,
             "RDSJ": null,
             "BJDM": null,
