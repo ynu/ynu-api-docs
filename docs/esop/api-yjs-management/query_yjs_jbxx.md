@@ -20,16 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/query_yjs
 | dszgh  | String |        | 否   | 导师       |
 | sflxs  | String |        | 否   | 是否留学生 |
 | xwlx   | String |        | 否   | 学位类型   |
-| mzdm   | String |        | 否   | 名族       |
-
-## 返回值
-
-### Object
-
-返回的 JSON 数据包
-|属性|类型|说明|
-|---|---|---|
-|RESULT|Number|返回结果|
+| mzdm   | String |        | 否   | 民族       |
 
 ## 返回的 JSON 数据说明
 
@@ -153,7 +144,7 @@ dataSet：
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": 26,
+        "total": 2,
         "pages": 1
     },
     "dataSet": [

@@ -117,7 +117,7 @@ module.exports = ctx => ({
                 {
                   title: "人事管理",
                   collapsable: false,
-                  children: []
+                  children: ["api-jzg/counter_jzg", "api-jzg/query_jzg_jbxx"]
                 }
               ]
             },

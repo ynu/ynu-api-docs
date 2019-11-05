@@ -19,15 +19,6 @@ POST http://apis.ynu.edu.cn/do/api/call/query_jw
 | xznj    | String |        | 否   | 现在年级     |
 | mzdm    | String |        | 否   | 民族代码     |
 
-## 返回值
-
-### Object
-
-返回的 JSON 数据包
-|属性|类型|说明|
-|---|---|---|
-|RESULT|Number|返回结果|
-
 ## 返回的 JSON 数据说明
 
 | 属性         | 类型   | 说明               |
