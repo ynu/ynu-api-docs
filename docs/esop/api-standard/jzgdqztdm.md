@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_jzgdqztdm
 |CLRQ|DateStr|处理日期|
 |MC|String|教职工当前状态名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_jzgdqztdm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "01",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "退休",
             "SFSY": "1"
         },

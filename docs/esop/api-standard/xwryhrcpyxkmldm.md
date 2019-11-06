@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xwsyhrcpymldm
 |CLRQ|DateStr|处理日期|
 |MC|String|学位授予和人才培养学科目录名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -48,6 +49,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xwsyhrcpymldm
             "DM": "1",
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "11",
+            "CC":"1",
             "ROW_ID": 1,
             "MC": "军事学",
             "SFSY": "1"

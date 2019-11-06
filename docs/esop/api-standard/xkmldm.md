@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xkmldm
 |CLRQ|DateStr|处理日期|
 |MC|String|学科门类名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xkmldm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "1201020",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "控制论",
             "SFSY": "1"
         },

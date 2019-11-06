@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_jkzkdm
 |CLRQ|DateStr|处理日期|
 |MC|String|健康状况名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_jkzkdm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "10",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "健康或良好",
             "SFSY": "1"
         },

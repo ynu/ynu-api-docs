@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_yxdm
 |CLRQ|DateStr|处理日期|
 |MC|String|院系名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_yxdm
             "CLRQ": "2017-06-15 14:36:32.0",
             "WID": "90001298",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "学院",
             "SFSY": "1"
         },

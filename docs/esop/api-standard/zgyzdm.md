@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zgyzdm
 |CLRQ|DateStr|处理日期|
 |MC|String|中国语种名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -48,6 +49,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zgyzdm
             "DM": "0",
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "061",
+            "CC":"1",
             "ROW_ID": 1,
             "MC": "俄语",
             "SFSY": "1"

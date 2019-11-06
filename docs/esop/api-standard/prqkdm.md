@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_prqkdm
 |CLRQ|DateStr|处理日期|
 |MC|String|聘任情况名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_prqkdm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "1",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "聘任",
             "SFSY": "1"
         },

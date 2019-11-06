@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zwfldm
 |CLRQ|DateStr|处理日期|
 |MC|String|职位分类名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_zwfldm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "0",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "国务院总理级",
             "SFSY": "1"
         },

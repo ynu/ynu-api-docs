@@ -1,8 +1,8 @@
-# 查询教务信息
+# 查询本科生信息
 
 ## 用途
 
-根据条件（即请求参数）获得教务的信息
+根据条件（即请求参数）获得本科生的信息
 
 ## 请求地址
 
@@ -18,6 +18,11 @@ POST http://apis.ynu.edu.cn/do/api/call/query_jw
 | xslbdm  | String |        | 否   | 学生类别代码 |
 | xznj    | String |        | 否   | 现在年级     |
 | mzdm    | String |        | 否   | 民族代码     |
+| xh      | String |        | 否   | 学号         |
+| xm      | String |        | 否   | 姓名         |
+| xmpy    | String |        | 否   | 姓名拼音     |
+| yxdm    | String |        | 否   | 院系代码     |
+| sfzj    | String |        | 否   | 是否在籍     |
 
 ## 返回的 JSON 数据说明
 
@@ -207,7 +212,7 @@ dataSet：
         {
             "XIDM": null,
             "XYZJDM": null,
-            "ZYDM": "30112017701-lxs",
+            "ZYDM": "3011-lxs",
             "SXSLBDM": null,
             "CZLX": "I",
             "BYSJSB": null,
@@ -241,20 +246,20 @@ dataSet：
             "SJR": null,
             "XBDM": "1",
             "JYZSH": null,
-            "RXNY": "2019-9-1",
+            "RXNY": "20-9-1",
             "XXXQDM": "05",
             "LXDH": null,
             "SJH": null,
             "KSLBDM": null,
-            "XH": "2010581",
-            "CSRQ": "1999-04-10",
+            "XH": "20",
+            "CSRQ": "19-0-1",
             "XM": "RANA,MD MASUD",
             "HYZKDM": null,
             "PYCCDM": "05",
             "XWZH": null,
             "RXNJ": null,
             "FJ": null,
-            "CZSJ": "2019-09-04 13:21:52.0",
+            "CZSJ": "20-0-0 13:21:52.0",
             "CZIP": null,
             "SYXWDM": null,
             "BJYJLDM": null,
@@ -263,7 +268,7 @@ dataSet：
             "SXWZY": null,
             "XZM": null,
             "ZSJDDM": "1",
-            "CLRQ": "2019-09-30 12:26:30.0",
+            "CLRQ": "20-0-0 12:26:30.0",
             "YYSJB": null,
             "ZYFXDM": null,
             "TSXSLXDM": null,
@@ -278,7 +283,7 @@ dataSet：
             "ZXYZBM": null,
             "KSH": null,
             "MZDM": null,
-            "SFZJH": "EB59038",
+            "SFZJH": "EB8",
             "BYZSH": null,
             "ZP": null,
             "FXBLSJ": null,
@@ -290,7 +295,7 @@ dataSet：
             "TZSH": null,
             "XZ": 4,
             "YH": null,
-            "YXDM": "3011",
+            "YXDM": "3",
             "RXQDW": null,
             "XXDM": null,
             "ZXM": null,
@@ -299,7 +304,7 @@ dataSet：
             "XWSYSJSB": null,
             "RXZY": null,
             "ZSZXMC": null,
-            "CZRXM": "刘",
+            "CZRXM": "*",
             "BSRXSJ": null,
             "DSDM": null,
             "JG": null,
@@ -307,7 +312,7 @@ dataSet：
             "JHXZDM": null,
             "YYZSHB": null,
             "ZZMMDM": null,
-            "WID": "0012aa98c1c3d131d4310e",
+            "WID": "0012*****310e",
             "RXFSDM": null,
             "SXWZSH": null,
             "XSLB2": null,
@@ -320,7 +325,7 @@ dataSet：
             "JJLXFS": null,
             "SS": null,
             "JTDZ": null,
-            "YHH": "201932981",
+            "YHH": "20*****81",
             "KSTZ": null,
             "FXZSH": null,
             "DZXX": null,
@@ -336,14 +341,14 @@ dataSet：
             "CSDDM": null,
             "BSKSH": null,
             "QQH": null,
-            "BJDM": "201931780701-lxs",
+            "BJDM": "20193********01-lxs",
             "XMPY": null,
             "SSDH": null,
             "JJLXR": null,
             "SYDDM": null,
             "XSLBDM": null,
             "JTDH": null,
-            "XZNJ": "2019"
+            "XZNJ": "1999"
         },
         ...
 }

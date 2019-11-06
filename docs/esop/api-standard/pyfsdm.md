@@ -49,6 +49,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_pyfsdm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "10",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "国家任务",
             "SFSY": "1"
         },

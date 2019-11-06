@@ -15,6 +15,12 @@ POST http://apis.ynu.edu.cn/do/api/call/query_jzg
 | xbdm   | String |        | 否   | 性别代码     |
 | zzmmdm | String |        | 否   | 政治面貌代码 |
 | dqztdm | String |        | 否   | 当前状态代码 |
+| zgh    | String |        | 否   | 职工号       |
+| xm     | String |        | 否   | 姓名         |
+| xmpy   | String |        | 否   | 姓名拼音     |
+| sfzjh  | String |        | 否   | 身份证件号   |
+| lxrq   | String |        | 否   | 来校日期     |
+| byxx   | String |        | 否   | 毕业学校     |
 
 ## 返回的 JSON 数据说明
 
@@ -49,7 +55,7 @@ dataSet：
 |CSDDM|String|出生地代码|
 |JGDM|String|籍贯代码|
 |GJDQDM|String|国家地区代码|
-|MZDM|String|名族代码|
+|MZDM|String|民族代码|
 |SFZJLXDM|String|身份证件类型代码|
 |SFZJH|String|身份证件号|
 |GATQDM|String|港澳台侨代码|
@@ -178,7 +184,7 @@ dataSet：
             "ZGYZDM": null,
             "XWDM": null,
             "HKSZD": null,
-            "LXRQ": "1923-07-01",
+            "LXRQ": "19-07-01",
             "PRZTDM": null,
             "SJTSZDWDM": null,
             "SFZJYXQ": null,
@@ -194,9 +200,9 @@ dataSet：
             "JSZGHDRQ": null,
             "CJDEDPRQ": null,
             "HZDSXM": null,
-            "CJGZRQ": "1996-07-01",
-            "CSRQ": "1975-02-12",
-            "XM": "郑",
+            "CJGZRQ": "1-07-01",
+            "CSRQ": "1-02-12",
+            "XM": "王",
             "HYZKDM": null,
             "JZGLBDM": "13",
             "BZLBDM": null,
@@ -209,17 +215,17 @@ dataSet：
             "CJRQ": null,
             "GLGWPRRQ": null,
             "SFYHWXXJL": null,
-            "YZC": "副研究员",
+            "YZC": "副",
             "SYXWDW": null,
-            "CLRQ": "2019-06-15 01:21:20.0",
+            "CLRQ": "2-06-15 01:21:20.0",
             "JDGLYS": null,
             "SXWRQ": null,
             "SZDWDM": "101",
             "GL": null,
             "ZYJSZWPDRQ": "2015-11-14",
             "GRJSDJDM": null,
-            "ZTBHRQ": "2019-09-18",
-            "CJDPRQ": "1994-12-16",
+            "ZTBHRQ": "2-09-18",
+            "CJDPRQ": "1-12-16",
             "SJLY": null,
             "JKZKDM": null,
             "GLQSRQ": null,
@@ -229,7 +235,7 @@ dataSet：
             "YJXKDM": null,
             "GATQDM": null,
             "MZDM": "07",
-            "SFZJH": "530102197502120322",
+            "SFZJH": "5301*****0322",
             "JGDM": null,
             "SFSJT": null,
             "DZZW": "副主任",
@@ -241,7 +247,7 @@ dataSet：
             "PTHSPDJDM": null,
             "XXDM": null,
             "ZYJSGWPRRQ": null,
-            "ZGH": "19960022",
+            "ZGH": "122",
             "PRXZDM": null,
             "SFYHWGZJL": null,
             "DQZTDM": "2",
@@ -250,7 +256,7 @@ dataSet：
             "YBMDM": "1",
             "SZKSDM": null,
             "ZZMMDM": "01",
-            "WID": "8999B08794C7520D3771EACE",
+            "WID": "899****1EACE",
             "EJXKDM": null,
             "ZBQKDM": null,
             "ZYJSGWLBDM": null,

@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_dwdm
 |CLRQ|DateStr|处理日期|
 |MC|String|单位名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_dwdm
             "CLRQ": "2019-06-13 22:06:10.0",
             "WID": "90001460",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "纪委办公室.监察处",
             "SFSY": "1"
         },

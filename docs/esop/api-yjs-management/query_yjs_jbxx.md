@@ -10,17 +10,21 @@ POST http://apis.ynu.edu.cn/do/api/call/query_yjs
 
 ## 请求参数
 
-| 属性   | 类型   | 默认值 | 必填 | 说明       |
-| ------ | ------ | ------ | ---- | ---------- |
-| lxbz   | String |        | 否   | 在校标识   |
-| xbdm   | String |        | 否   | 性别代码   |
-| pyccm  | String |        | 否   | 培养层次   |
-| xslbdm | String |        | 否   | 学生类别   |
-| nj     | String |        | 否   | 年级       |
-| dszgh  | String |        | 否   | 导师       |
-| sflxs  | String |        | 否   | 是否留学生 |
-| xwlx   | String |        | 否   | 学位类型   |
-| mzdm   | String |        | 否   | 民族       |
+| 属性  | 类型   | 默认值 | 必填 | 说明       |
+| ----- | ------ | ------ | ---- | ---------- |
+| lxbz  | String |        | 否   | 在校标识   |
+| xbdm  | String |        | 否   | 性别代码   |
+| pyccm | String |        | 否   | 培养层次   |
+| nj    | String |        | 否   | 年级       |
+| dszgh | String |        | 否   | 导师       |
+| sflxs | String |        | 否   | 是否留学生 |
+| xwlx  | String |        | 否   | 学位类型   |
+| xh    | String |        | 否   | 学号       |
+| xm    | String |        | 否   | 姓名       |
+| xmpy  | String |        | 否   | 姓名拼音   |
+| sfzx  | String |        | 否   | 是否在校   |
+| zjhm  | String |        | 否   | 身份证号   |
+| mzdm  | String |        | 否   | 名族代码   |
 
 ## 返回的 JSON 数据说明
 
@@ -150,7 +154,7 @@ dataSet：
     "dataSet": [
         {
             "JKZKDM": null,
-            "ZYDM": "03021201",
+            "ZYDM": "01",
             "BYZH": null,
             "SSXWZYMC": null,
             "BY1": null,
@@ -173,7 +177,7 @@ dataSet：
             "SYD": null,
             "TSXSLX": null,
             "GATQM": null,
-            "ZJHM": "5301103710504331",
+            "ZJHM": "5301******04331",
             "ZJLX": "01",
             "YXDM": "3031",
             "LXBZ": null,
@@ -187,17 +191,17 @@ dataSet：
             "JG": null,
             "HKSZDM": null,
             "DAZT": null,
-            "WID": "1200101146",
+            "WID": "12146",
             "XBDM": "1",
             "BS": null,
-            "RXNY": "2001-09-01 00:00:00.0",
+            "RXNY": "2-09-01 00:00:00.0",
             "ZXJH": null,
             "SFZX": "0",
             "XJZT": null,
             "YHKH": null,
-            "XH": "1200110146",
+            "XH": "12146",
             "BZ": null,
-            "CSRQ": "1971-05-04 00:00:00.0",
+            "CSRQ": "1-05-04 00:00:00.0",
             "HYZKDM": null,
             "XM": "何",
             "XWZH": null,
@@ -217,7 +221,7 @@ dataSet：
             "BJDM": null,
             "XMPY": null,
             "ZCZT": "0",
-            "CLRQ": "2019-09-30 14:12:04.0",
+            "CLRQ": "2-09-30 14:12:04.0",
             "JTZZ": null,
             "SFLXS": null,
             "XSFLDM": null,

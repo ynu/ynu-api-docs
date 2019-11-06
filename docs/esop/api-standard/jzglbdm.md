@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_jzglbdm
 |CLRQ|DateStr|处理日期|
 |MC|String|教职工类别名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_jzglbdm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "1101",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "思政类教师",
             "SFSY": "1"
         },

@@ -20,7 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
 | dszgh  | String |        | 否   | 导师       |
 | sflxs  | String |        | 否   | 是否留学生 |
 | xwlx   | String |        | 否   | 学位类型   |
-| mzdm   | String |        | 否   | 名族       |
+| mzdm   | String |        | 否   | 民族       |
 
 ## 返回值
 

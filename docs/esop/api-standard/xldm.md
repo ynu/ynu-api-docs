@@ -20,6 +20,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xldm
 |CLRQ|DateStr|处理日期|
 |MC|String|学历名称|
 |SFSY|String|是否使用|
+|CC|String|层次|
 
 ## 请求数据示例
 
@@ -49,6 +50,7 @@ POST http://apis.ynu.edu.cn/do/api/call/zxbz_xldm
             "CLRQ": "2015-03-01 00:00:00.0",
             "WID": "25",
             "ROW_ID": 1,
+            "CC":"1",
             "MC": "双学位毕业",
             "SFSY": "1"
         },
