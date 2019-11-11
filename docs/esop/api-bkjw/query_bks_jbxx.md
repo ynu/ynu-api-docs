@@ -6,7 +6,7 @@
 
 ## 请求地址
 
-POST http://apis.ynu.edu.cn/do/api/call/query_jw
+POST http://apis.ynu.edu.cn/do/api/call/query_bks
 
 ## 请求参数
 
