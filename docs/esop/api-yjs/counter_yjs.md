@@ -21,6 +21,7 @@ POST http://apis.ynu.edu.cn/do/api/call/count_yjs
 | sflxs  | String |        | 否   | 是否留学生 |
 | xwlx   | String |        | 否   | 学位类型   |
 | mzdm   | String |        | 否   | 民族       |
+| sfzx   | String |        | 否   | 是否在校   |
 
 ## 返回值
 

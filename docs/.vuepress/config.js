@@ -135,7 +135,7 @@ module.exports = ctx => ({
                 {
                   title: "研究生管理",
                   collapsable: false,
-                  children: ["api-manual", "api-yjs-management/query_yjs_jbxx"]
+                  children: ["api-yjs/counter_yjs", "api-yjs/query_yjs_jbxx"]
                 },
                 {
                   title: "本科教务",
