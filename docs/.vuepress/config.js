@@ -140,7 +140,11 @@ module.exports = ctx => ({
                 {
                   title: "本科教务",
                   collapsable: false,
-                  children: ["api-bkjw/counter_bks", "api-bkjw/query_bks_jbxx"]
+                  children: [
+                    "api-bkjw/counter_bks",
+                    "api-bkjw/query_bks_jbxx",
+                    "api-bkjw/cj_bks"
+                  ]
                 },
                 {
                   title: "人事管理",
