@@ -143,7 +143,8 @@ module.exports = ctx => ({
                   children: [
                     "api-bkjw/counter_bks",
                     "api-bkjw/query_bks_jbxx",
-                    "api-bkjw/cj_bks"
+                    "api-bkjw/cj_bks",
+                    "api-bkjw/query_pksjjsxx"
                   ]
                 },
                 {
