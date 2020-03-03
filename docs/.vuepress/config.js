@@ -135,7 +135,11 @@ module.exports = ctx => ({
                 {
                   title: "研究生管理",
                   collapsable: false,
-                  children: ["api-yjs/counter_yjs", "api-yjs/query_yjs_jbxx"]
+                  children: [
+                    "api-yjs/counter_yjs",
+                    "api-yjs/query_yjs_jbxx",
+                    "api-yjs/kcbjbxx_yjs"
+                  ]
                 },
                 {
                   title: "本科教务",
@@ -144,7 +148,8 @@ module.exports = ctx => ({
                     "api-bkjw/counter_bks",
                     "api-bkjw/query_bks_jbxx",
                     "api-bkjw/cj_bks",
-                    "api-bkjw/query_pksjjsxx"
+                    "api-bkjw/query_pksjjsxx",
+                    "api-bkjw/kcb_bks"
                   ]
                 },
                 {
