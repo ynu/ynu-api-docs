@@ -12,7 +12,8 @@ POST http://apis.ynu.edu.cn/do/api/call/kcb_bks
 
 | 属性  | 类型   | 默认值 | 必填 | 说明                                                                |
 | ----- | ------ | ------ | ---- | ------------------------------------------------------------------- |
-| param | String |        | 否   | wid（技术主键 ID），kcm （课程名），kch（课程号）字段的模糊查询参数 |
+|kcm|String||否|课程名（模糊查询）|
+|kch|String||否|课程号|
 
 ## 返回的 JSON 数据说明
 
@@ -124,7 +125,7 @@ dataSet：
 
 ```
 {
-	"param":"中国古代文学(中)"
+	"kcm":"中国古代"
 }
 ```
 
@@ -141,7 +142,7 @@ dataSet：
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": 3,
+        "total": ******,
         "pages": 1
     },
     "dataSet": [
@@ -149,8 +150,8 @@ dataSet：
             "XIDM": null,
             "BY1": null,
             "KCSPDM": null,
-            "CZLX": "******",
-            "TYKCBS": "01******42",
+            "CZLX": "I",
+            "TYKCBS": "******",
             "KCFLDM": null,
             "KCMB": null,
             "XXKC": null,
@@ -165,7 +166,7 @@ dataSet：
             "SFSYSK": null,
             "BQMC": null,
             "KSRQ": null,
-            "KKDWDM": "3******7",
+            "KKDWDM": "******",
             "KSLXDM": "******",
             "KCSJZXS": null,
             "KCCCDM": null,
@@ -183,11 +184,11 @@ dataSet：
             "XXKSFQY": null,
             "SYYX": null,
             "SFMGCKC": null,
-            "KCH": "01******2",
+            "KCH": "******",
             "QTXS1": null,
             "XS": ******,
             "WWJC": null,
-            "WID": "01******2",
+            "WID": "******",
             "QTXS5": null,
             "QTXS4": ******,
             "QTXS3": null,
@@ -218,7 +219,7 @@ dataSet：
             "XXKDM": null,
             "KCFL1": null,
             "KTJSXS": ******,
-            "CLRQ": "******",
+            "CLRQ": "2019-09-30 12:14:41",
             "YWNRJJ": null,
             "HFYY": null,
             "JXDGFJ": null,

@@ -12,7 +12,15 @@ POST http://apis.ynu.edu.cn/do/api/call/zhjbxx_tysfrz
 
 | 属性  | 类型   | 默认值 | 必填 | 说明                                                                                                                                                                                                                          |
 | ----- | ------ | ------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| param | String |        | 否   | id（ID），userid（用户账户），cn，pwdstrength（用户名称），pwdpolicy（密码强度），pwdpolicy（密码策略），container（容器），inetuserstatus（inetuserstatus），telephonenumber（手机号码），bmyx（保密邮箱）字段的模糊查询参数 |
+|id|String||否|ID|
+|userid|String||否|用户ID|
+|cn|String||否|用户名称|
+|pwdstrength|String||否|密码强度|
+|pwdpolicy|String||否|密码策略|
+|inetuserstatus|String||否|inetuserstatus|
+|telephonenumber|String||否|手机号码|
+|bmyx|String||否|保密邮箱|
+|container|String||否|容器|
 
 ## 返回的 JSON 数据说明
 
@@ -59,7 +67,7 @@ dataSet：
 
 ```
 {
-	"param":"物理"
+	"cn":"高*"
 }
 ```
 
@@ -76,29 +84,29 @@ dataSet：
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": ***,
+        "total": ******,
         "pages": 1
     },
     "dataSet": [
         {
-            "ADDFROM": "2",
+            "ADDFROM": "******",
             "WID": null,
             "BY1": null,
-            "CONTAINER": "o***",
-            "PWDPOLICY": 1,
-            "CZLX": "***",
-            "LIFETIME": "20***",
+            "CONTAINER": "******",
+            "PWDPOLICY": ******,
+            "CZLX": "******",
+            "LIFETIME": null,
             "ALIAS": null,
-            "PWDSTRENGTH": ***3,
-            "CLRQ": "201***",
-            "BMYX": ***ll,
+            "PWDSTRENGTH": ******,
+            "CLRQ": "******",
+            "BMYX": null,
             "ROW_ID": 1,
-            "ID": "***",
-            "CN": "物理与天文学院",
-            "TELEPHONENUMBER": ***l,
-            "INETUSERSTATUS": "***",
+            "ID": "******",
+            "CN": "高*",
+            "TELEPHONENUMBER": null,
+            "INETUSERSTATUS": "******",
             "SJLY": null,
-            "USERID": "***5"
+            "USERID": "******"
         },
         ...
 }

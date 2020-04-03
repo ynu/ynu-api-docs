@@ -12,7 +12,8 @@ POST http://apis.ynu.edu.cn/do/api/call/kcjbxx_yjs
 
 | 属性  | 类型   | 默认值 | 必填 | 说明                                                                                       |
 | ----- | ------ | ------ | ---- | ------------------------------------------------------------------------------------------ |
-| param | String |        | 否   | wid（技术主键 ID），kcmc（课程名称），kcdm（课程代码），kkdw（开课单位）字段的模糊查询参数 |
+|kcmc|String||否|课程名称（模糊查询）|
+|kcdm|String||否|课程代码|
 
 ## 返回的 JSON 数据说明
 
@@ -96,7 +97,7 @@ dataSet：
 
 ```
 {
-	"param":"对外汉语课型教学"
+	"kcmc": "有机"	
 }
 ```
 
@@ -113,24 +114,24 @@ dataSet：
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": 1,
+        "total": 17,
         "pages": 1
     },
     "dataSet": [
         {
             "BY2": null,
             "BY1": null,
-            "CZLX": "******",
+            "CZLX": "I",
             "KKDW": "******",
             "ZHXS": null,
             "CKWX": null,
             "KCFLDM": "******",
-            "KCMC": "对外汉语课型教学",
+            "KCMC": "有机反应及机理",
             "SKFSDM": null,
             "KCJJYW": null,
             "SYZYYW": null,
             "CKWXYW": null,
-            "CJLXSFKXG": ******,
+            "CJLXSFKXG": 1,
             "SYXWLX": null,
             "KCYQYW": null,
             "XKXXXQ": null,
@@ -143,19 +144,19 @@ dataSet：
             "DYYJXKDM": null,
             "SYXSLBDM": null,
             "KKZTDM": "******",
-            "ZXS": 3******,
+            "ZXS": ******,
             "ROW_ID": ******,
             "KKXQS": null,
             "KCYQ": null,
-            "WID": "201******05",
+            "WID": "******",
             "JXDGYW": null,
-            "CJJLFSDM": "******",
+            "CJJLFSDM": "1",
             "JXDG": null,
             "SKXS": null,
             "XF": ******,
             "KCZY": null,
             "XGKC": null,
-            "KCXZDM": "******",
+            "KCXZDM": "1",
             "KCFZR": null,
             "SFSYK": null,
             "KCZYYW": null,
@@ -164,15 +165,15 @@ dataSet：
             "KCJCYW": null,
             "SFKXQ": ******,
             "CDDW": null,
-            "KCMCYW": "Teaching Chinese as a foreign language",
-            "CLRQ": "******",
+            "KCMCYW": "******",
+            "CLRQ": "2020-04-03 01:17:01",
             "KCLBDM": "******",
             "XGKCYW": null,
             "KCJC": null,
             "SKYYDM": null,
-            "KCDM": "******5",
+            "KCDM": "******",
             "KCJJ": null,
-            "SJLY": "******33"
+            "SJLY": "******"
         },
         ...
 }

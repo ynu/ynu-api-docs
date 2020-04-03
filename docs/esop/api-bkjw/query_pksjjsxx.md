@@ -12,7 +12,9 @@ POST http://apis.ynu.edu.cn/do/api/call/pksjjs_bks
 
 | 属性  | 类型   | 默认值 | 必填 | 说明                                                                                |
 | ----- | ------ | ------ | ---- | ----------------------------------------------------------------------------------- |
-| param | String |        | 否   | wid（WID），jsh （教师号），kch（课程号），xnxqdm（学年学期代码）字段的模糊查询参数 |
+|jsh|String||否|教师号|
+|kch|String||否|课程号|
+|xnxqdm|String||否|学年学期代码|
 
 ## 返回的 JSON 数据说明
 
@@ -66,7 +68,7 @@ dataSet：
 
 ```
 {
-	"param":"5303******1"
+	"xnxqdm":"2018-2019-1"
 }
 ```
 
@@ -83,49 +85,36 @@ dataSet：
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": ***,
-        "pages": 1
-    },
-    {
-    "returnStatus": "1",
-    "returnId": "",
-    "errorCode": "",
-    "errorMsg": "",
-    "pageInfo": {
-        "pageNum": 1,
-        "pageSize": 1000,
-        "startRow": 0,
-        "endRow": 1000,
-        "total": 2,
-        "pages": 1
+        "total": ******,
+        "pages": ******
     },
     "dataSet": [
         {
-            "WID": "0089******466cd",
-            "JSJC": **,
+            "WID": "******",
+            "JSJC": ******,
             "BY2": null,
             "BY1": null,
             "SJSM": null,
-            "CZLX": "**",
-            "KXH": "**",
-            "KSJC": **,
-            "SKZC": "1******0",
+            "CZLX": "I",
+            "KXH": "******",
+            "KSJC": 1,
+            "SKZC": "******",
             "CZR": null,
             "BZ": null,
-            "JSH": "53******1",
+            "JSH": "******",
             "XSLXDM": null,
-            "CLRQ": "2222-03-01 1:08:14",
-            "SKXQ": 1,
+            "CLRQ": "2020-04-03 02:32:01",
+            "SKXQ": ******,
             "ROW_ID": 1,
             "CZRXM": null,
-            "XNXQDM": "2017-2018-2",
-            "ZYID": "35******9f",
+            "XNXQDM": "2018-2019-1",
+            "ZYID": "******",
             "CZSJ": null,
-            "KBID": "6E******DD",
+            "KBID": "******",
             "CZIP": null,
-            "JXBID": "20******101",
-            "KCH": "3******71",
-            "SJLY": "**3"
+            "JXBID": "******",
+            "KCH": "******",
+            "SJLY": "******"
         },
         ...
 }

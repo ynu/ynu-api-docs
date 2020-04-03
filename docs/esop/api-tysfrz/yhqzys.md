@@ -12,7 +12,8 @@ POST http://apis.ynu.edu.cn/do/api/call/yhqzys_tysfrz
 
 | 属性  | 类型   | 默认值 | 必填 | 说明                                                       |
 | ----- | ------ | ------ | ---- | ---------------------------------------------------------- |
-| param | String |        | 否   | groupid(群组 ID) 和 userid(用户 ID) 两个字段的模糊查询参数 |
+|groupid|String||否|群组ID|
+|userid|String||否|用户ID|
 
 ## 返回的 JSON 数据说明
 
@@ -49,7 +50,7 @@ dataSet：
 
 ```
 {
-	"param":"lx"
+	"groupid":"lx******"
 }
 ```
 
@@ -66,18 +67,18 @@ dataSet：
         "pageSize": 1000,
         "startRow": 0,
         "endRow": 1000,
-        "total": 7,
-        "pages": 8
+        "total": ******,
+        "pages": ******
     },
     "dataSet": [
         {
-            "CLRQ": "2019-***",
+            "CLRQ": "******",
             "WID": null,
             "BY1": null,
-            "GROUPID": "lx**",
-            "CZLX": "I",
-            "ROW_ID": 1,
-            "USERID": "***",
+            "GROUPID": "lx******",
+            "CZLX": "******",
+            "ROW_ID": ******,
+            "USERID": "******",
             "SJLY": null
         },
         ...
