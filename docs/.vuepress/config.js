@@ -155,7 +155,7 @@ module.exports = ctx => ({
                 {
                   title: "人事管理",
                   collapsable: false,
-                  children: ["api-jzg/counter_jzg", "api-jzg/query_jzg_jbxx"]
+                  children: ["api-jzg/counter_jzg", "api-jzg/query_jzg_jbxx", "api-jzg/xzjg_jzg", "api-jzg/yrfs_jzg","api-jzg/ztm_jzg"]
                 },
                 {
                   title: "统一身份认证系统",
