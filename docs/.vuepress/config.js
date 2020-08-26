@@ -153,9 +153,14 @@ module.exports = ctx => ({
                   ]
                 },
                 {
-                  title: "人事管理",
+                  title: "一卡通",
                   collapsable: false,
-                  children: ["api-jzg/counter_jzg", "api-jzg/query_jzg_jbxx", "api-jzg/xzjg_jzg", "api-jzg/yrfs_jzg","api-jzg/ztm_jzg","api-jzg/info_jzg_rs"]
+                  children: ["api-ecard/info_ecard","api-ecard/operatorBill_ecard","api-ecard/shopBill_ecard","api-ecard/shopBillMonth_ecard","api-ecard/shops_ecard","api-ecard/shopDeviceBill_ecard"]
+                },
+                {
+                  title: "站群",
+                  collapsable: false,
+                  children: ["api-zq/latestDaysUpdateCounter_wbnews_zq","api-zq/wbfirm_zq","api-zq/webnews_zq"]
                 },
                 {
                   title: "统一身份认证系统",
