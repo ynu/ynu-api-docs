@@ -133,6 +133,18 @@ module.exports = ctx => ({
                   ]
                 },
                 {
+                  title: "人事管理",
+                  collapsable: false,
+                  children: [
+                    "api-jzg/counter_jzg",
+                    "api-jzg/info_jzg_rs",
+                    "api-jzg/query_jzg_jbxx",
+                    "api-jzg/xzjg_jzg",
+                    "api-jzg/yrfs_jzg",
+                    "api-jzg/ztm_jzg"
+                  ]
+                },
+                {
                   title: "研究生管理",
                   collapsable: false,
                   children: [
@@ -170,7 +182,8 @@ module.exports = ctx => ({
                     "api-tysfrz/yyzhxx",
                     "api-tysfrz/rzyy",
                     "api-tysfrz/yhqzys",
-                    "api-tysfrz/zhjbxx"
+                    "api-tysfrz/zhjbxx",
+                    "api-tysfrz/tzsyyh"
                   ]
                 }
               ]
