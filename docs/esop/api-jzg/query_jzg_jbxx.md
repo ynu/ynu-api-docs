@@ -21,6 +21,7 @@ POST http://apis.ynu.edu.cn/do/api/call/query_jzg
 | sfzjh  | String |        | 否   | 身份证件号   |
 | lxrq   | String |        | 否   | 来校日期     |
 | byxx   | String |        | 否   | 毕业学校     |
+|szdwdm|String||否|所在单位代码|
 
 ## 返回的 JSON 数据说明
 
