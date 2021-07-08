@@ -23,6 +23,8 @@ yarn start
 # 文档位于 /docs/guide/，格式是markdown
 # 配置文件位于 /docs/.vuepress
 ```
+# 访问在线API文档网址
+http://docs.api.ynu.edu.cn/
 
 ::: warning 注意
 请确保你的 Node.js 版本 >= 8.6。
