@@ -24,6 +24,7 @@ POST http://apis.ynu.edu.cn/do/api/call/query_yjs
 | xmpy  | String |        | 否   | 姓名拼音   |
 | sfzx  | String |        | 否   | 是否在校   |
 | zjhm  | String |        | 否   | 身份证号   |
+|yxdm|String||否|院系代码|
 | mzdm  | String |        | 否   | 名族代码   |
 
 ## 返回的 JSON 数据说明
